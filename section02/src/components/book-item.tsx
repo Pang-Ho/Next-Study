@@ -12,7 +12,7 @@ export default function BookItem({
   coverImgUrl,
 }: BookData) {
   return (
-    <Link href={`/books/${id}`} className={style.container}>
+    <Link href={`/book/${id}`} className={style.container}>
       <img src={coverImgUrl} alt={title} />
       <div>
         <div className={style.title}>{title}</div>
